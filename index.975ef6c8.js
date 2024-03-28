@@ -27087,25 +27087,25 @@ var _stylesCss = require("./styles.css");
  *
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
-    name: "Yatharth Khanna",
-    title: "Limca Book Of Record Holder",
+    name: "",
+    title: "  ",
     email: "khannayatharth82@gmail.com",
-    gitHub: "https://github.com/Ykhanna111",
+    gitHub: "",
     instagram: "",
-    linkedIn: "https://www.linkedin.com/in/yatharth-khanna-960ab224b/",
+    linkedIn: "/yatharth-khanna-960ab224b/",
     medium: "",
     twitter: "",
     youTube: ""
 };
-const primaryColor = "#4E567E";
-const secondaryColor = "#D2F1E4";
+const primaryColor = "#FFFFFF";
+const secondaryColor = "#FFFFFF";
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         id: "main",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 44,
+                lineNumber: 45,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
@@ -27113,17 +27113,17 @@ const App = ()=>{
                 title: siteProps.title
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 45,
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 47,
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27132,13 +27132,13 @@ const App = ()=>{
                 secondaryColor: secondaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 48,
+                lineNumber: 49,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
-        lineNumber: 43,
+        lineNumber: 44,
         columnNumber: 5
     }, undefined);
 };
@@ -27170,19 +27170,13 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 /**
  * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
+
  */ var _motionBackgroundJpg = require("../images/motion-background.jpg");
 var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackgroundJpg);
 const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "Welcome to my portfolio! I'm a driven individual passionate about leveraging technology, particularly in AI/ML and cybersecurity. With a strong foundation in computer science and a relentless pursuit of excellence, I've garnered numerous accolades and milestones in my academic and professional journey.";
+ */ const description = "Welcome to my portfolio! I am Yatharth Khanna a driven individual passionate about leveraging technology, particularly in AI/ML and Cybersecurity. With a strong foundation in Computer Science and a relentless pursuit of excellence, I've garnered numerous accolades and milestones in my academic and professional journey.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -27190,7 +27184,9 @@ const imageAltText = "purple and blue abstract background";
     "5x Limca Book of World Record Holder   ",
     "9x Limca Book of National Record Holder",
     "Dean's Excellence Awardee",
-    "Student Excellence Awardee"
+    "Student Excellence Awardee",
+    "TryHackMe: Top 5%",
+    "Chess FIDE Rating: 1464"
 ];
 /**
  * Use this to give more information about what you are passionate about,
@@ -27208,7 +27204,7 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 53,
+                lineNumber: 49,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27224,7 +27220,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 63,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27232,12 +27228,12 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 64,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 65,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27252,17 +27248,17 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 76,
+                                lineNumber: 72,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 66,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 79,
+                        lineNumber: 75,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27272,19 +27268,19 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 80,
+                        lineNumber: 76,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 54,
+                lineNumber: 50,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 52,
+        lineNumber: 48,
         columnNumber: 5
     }, undefined);
 };
@@ -28620,8 +28616,8 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _designer3Png = require("../images/Designer3.png");
-var _designer3PngDefault = parcelHelpers.interopDefault(_designer3Png);
+ */ var _designer1Png = require("../images/Designer (1).png");
+var _designer1PngDefault = parcelHelpers.interopDefault(_designer1Png);
 const imageAltText = "";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28630,7 +28626,7 @@ const Home = ({ name , title  })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _designer3PngDefault.default),
+                src: (0, _designer1PngDefault.default),
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
@@ -28713,11 +28709,11 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/Designer3.png":"5P3fK"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/Designer (1).png":"6OLNt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"5P3fK":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Designer3.5ffb2535.png" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"6OLNt":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Designer (1).c6021341.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -28767,9 +28763,9 @@ const imageAltText = "desktop with books and laptop";
         url: "https://github.com/microsoft/web-dev-for-beginners"
     },
     {
-        title: "My Resume Site",
-        description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-        url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
+        title: "Resume",
+        description: "",
+        url: ""
     },
     {
         title: "GitHub Codespaces and github.dev",
